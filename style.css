@@ -1,0 +1,464 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar_container{
+    width: 100%;
+    height: 56px;
+    background-color: rgb(86, 86, 86);
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav_bar{
+    width: 100%;
+    min-height: 56px;
+    background-color: rgb(86, 86, 86);
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav_img{
+    height: 56px;
+    min-width: 100px;
+    padding-left: 40px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+.search{
+    height: 100%;
+    min-width: 370px;
+    margin-top: 8px;
+    display: block;
+    position: relative;
+}
+.bar{
+    height: 40px;
+    min-width: 300px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    position: relative;  
+}
+.search_bar{
+    height: 35px;
+    width: 300px;
+}
+.search_button{
+    height: 38px;
+    width: 50px;
+    margin-top: 1px;
+    border: 2px solid white;
+    background-color: #fff;   
+}
+.search_button:hover{
+    cursor: pointer;
+}
+.home_button{
+    box-sizing: border-box;
+    border: 0px solid;
+    width: 80px;
+    font-size: 20px;
+    padding: 13.5px;
+    text-align: center;
+    text-decoration: none;
+}
+.repair_button{
+    box-sizing: border-box;
+    border: 0px solid;
+    width: 80px;
+    font-size: 20px;
+    padding: 13.5px;
+    text-align: center;
+}
+.buy_button{
+    box-sizing: border-box;
+    border: 0px solid;
+    width: 80px;
+    font-size: 20px;
+    padding: 13.5px;
+    text-align: center;
+}
+.sell_button{
+    box-sizing: border-box;
+    border: 0px solid;
+    width: 80px;
+    font-size: 20px;
+    padding: 13.5px;
+    text-align: center;
+}
+.antique_goods_button{
+    box-sizing: border-box;
+    border: 0px solid;
+    width: 80px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;   
+}
+
+.login_signup_button{
+    box-sizing: border-box;
+    border: 0px solid;
+    min-width: 150px;
+    font-size: 20px;
+    padding: 13.5px;
+    margin-right: 10px;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color: black;
+    background-color: #fff;
+    text-decoration: underline;
+    
+}
+.large_logo{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(86, 86, 86);
+}
+.large_logo_image{
+    height: 350px;
+    padding-left: 450px;
+    margin: 0;
+}
+.best_offer{
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-top: 60px;
+    padding: 0;
+}
+h1{
+    margin-bottom: 0;
+    font-size: 40px;
+    font-style: bold;
+}
+.best_offer p{
+    margin-top: 5px;
+}
+.best_offer_list {
+    height: 550px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.best_offers_list_img{
+    width: 45%;
+    
+}
+.best_offers_list_start{
+    float: left;
+    width: 20%;
+    height: 300px;
+    background-color: rgb(221, 221, 221);
+    border: 5px solid white;
+    border-radius: 40px;
+    padding-top: 10px;
+    margin-left: 45px;
+    margin-top: 70px;
+}
+#black_white_tv{
+    padding: 18px;
+    width:210px;
+}
+#lcd_image{
+    padding-top: 20px;
+    width: 250px;
+    padding-bottom: 20px;
+}
+#led_image{
+    width: 270px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#inverter_image{
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    
+}
+.best_offers_list_start p{
+    font-size: 17px;
+}
+.best_offers_list :hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    text-decoration: underline;
+}
+.repairing_kits{
+    height:550px;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-top: 60px;
+    padding: 0;
+    background-color: whitesmoke;
+}
+.repairing_kits p{
+    margin-top: 5px;
+}
+.repairing_kits_list{
+    height: 550px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.repairing_kits_list_img{
+    width: 45%;
+}
+.repairing_kits_list_start{
+    float: left;
+    width: 20%;
+    height: 300px;
+    background-color: rgb(221, 221, 221);
+    border: 5px solid white;
+    border-radius: 40px;
+    padding-top: 10px;
+    margin-left: 45px;
+    margin-top: 70px;
+}
+
+#screw_drivers_image{
+    width: 200px;
+    height: auto;
+    margin-top: 0;
+    padding-top: 0;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#technical_machines_image{
+    width: 180px;
+    border-radius: 50px;
+    margin-bottom: 12px;
+}
+#technical_glasses_image{
+    width: 250px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+#solder_image{
+    width: 270px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}    
+.repairing_kits_list_start p{
+    font-size: 17px;
+}
+.repairing_kits_list_start:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    text-decoration: underline;
+}
+.buy_antiques{
+    height:550px;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-top: 60px;
+    padding: 0;
+}
+.buy_antiques p{
+    margin-top: 5px;
+}
+.buy_antiques_list{
+    height: 450px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.buy_antiques_list_img{
+    width: 45%;
+}
+.buy_antiques_list_start{
+    float: left;
+    width: 20%;
+    height: 250px;
+    background-color: rgb(221, 221, 221);
+    border: 5px solid white;
+    border-radius: 40px;
+    padding-top: 10px;
+    margin-left: 150px;
+    margin-top: 70px;  
+}
+#dvd_player_img{
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#carpet_img{
+    width: 180px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#music_player_img{
+    width: 230px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.buy_antiques_list_start p{
+    font-size: 17px;
+}
+.buy_antiques_list_start:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    text-decoration: underline;
+}
+.sell_antiques{
+    height:550px;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    margin-top: 60px;
+    padding: 0;
+    background-color: whitesmoke;
+}
+.sell_antiques p{
+    margin: 5px;
+}
+.sell_antiques_list{
+    height: 450px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sell_antiques_list{
+    display: flex;
+    justify-content: space-around;
+}
+.sell_antiques_list_one{
+    height: 350px;
+    width: 350px;
+    background: rgb(200,200,200);
+    background: radial-gradient(circle, rgba(200,200,200,1) 0%, rgba(127,193,191,1) 0%, rgba(209,209,209,1) 100%); 
+    border-radius: 50%;
+    font-size: 4em;
+    margin-top: 50px;
+}
+.sell_antiques_list_two{
+    height: 350px;
+    width: 350px;
+    background: rgb(200,200,200);
+    background: radial-gradient(circle, rgba(200,200,200,1) 0%, rgba(127,193,191,1) 0%, rgba(209,209,209,1) 100%);
+    border-radius: 50%;
+    font-size: 4em;
+    margin-top: 50px;
+}
+.sell_antiques_list span{
+    position: absolute;
+    margin-top: 125px;
+}
+#sell{
+    left: 315px;
+    pointer-events: none;
+}
+#show{
+    right: 290px;
+    pointer-events: none;
+}
+.sell_antiques_list :hover{
+    cursor: pointer;
+    background: rgb(200,200,200);
+    background: radial-gradient(circle, rgba(200,200,200,1) 0%, rgba(127,193,191,1) 50%, rgba(209,209,209,1) 100%);
+}
+.about_us{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-size: 17px;
+}
+.about_image{
+    width: 300px;
+    border-radius: 50%;
+}
+#about_us_founder{
+    font-size: 2em;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+#about_us_short_para{
+    margin-top: 1px;
+    font-size: 1.15em;
+    font-family: 'Times New Roman', Times, serif
+}
+#about_us_long_para{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    height: 350px;
+    text-align: center;
+    background-color: rgb(86, 86, 86);
+}
+.footer_antiq h1{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.footer_list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    column-rule-style: inset;
+}
+.contact p{
+    margin: 4px;
+    color: #fff;
+}
+.footer_list_last{
+    display: flex;
+    justify-content: baseline;
+    margin-left: 40px;
+    margin-top: 135px;
+    
+}
+.footer_list_last_antiq{
+    margin-left: 85%;
+}
+.footer_antiq span:hover{
+    cursor: pointer;
+    -webkit-text-fill-color: #fff;
+}
+.contact p:hover{
+    color: rgb(160, 176, 255);
+    cursor: pointer;
+}
+.footer_list a:hover{
+    color: rgb(160, 176, 255);
+}
